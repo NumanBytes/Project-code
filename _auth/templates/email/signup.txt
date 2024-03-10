@@ -1,0 +1,9 @@
+Welcome to My Site
+
+Dear {{ user.username }},
+
+Thank you for signing up for our service. We are excited to have you on board!
+
+Best regards,
+
+The My Site Team

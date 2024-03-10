@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+{% load static %}
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Welcome to Lootlo</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'css/style.css' %}">
+</head>
+<body>
+
+    <h1>Welcome to Lootlo</h1>
+    <p>Dear {{ user.username }},</p>
+    <p>Thank you for signing up for our service. We are excited to have you on board!</p>
+    <p>Best regards,</p>
+    <p>The My Site Team</p>
+</body>
+</html>
